@@ -28,5 +28,3 @@ with open(filename, "a", newline="") as file:
             csvwriter.writerow([dt, expense])
 
 file.close()
-
-print("test")_
